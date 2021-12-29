@@ -1,0 +1,409 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Hello World!</title>
+    <link rel="stylesheet" href="tes3.css" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Overpass">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous" />
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx"
+        crossorigin="anonymous"></script>
+    <script src="tes3.js"></script>
+</head>
+
+<body>
+    <div class="container-fluid">
+
+        <!-- INFOMATION BAR -->
+        <div class="row">
+            <div class="alert information-bar d-flex flex-column justify-content-center align-items-center alert-dismissible fade show"
+                role="alert">
+                <span class="We-are-open-as-norma">
+                    We are open as normal! $6.50 flat fee shipping, Australia wide
+                    *Offer extended for Lockdown.
+                </span>
+                <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                    <img class="close-404" src="404-close.png" />
+                </button>
+            </div>
+        </div>
+        <!-- END OF INFORMATION BAR -->
+
+
+        <!-- MENU BAR -->
+        <div class="row">
+            <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
+                <div class="row menu-bar d-flex justify-content-center align-items-center">
+                    <span class="menu-bar-item">
+                        CANDY SHOP
+                    </span>
+                    <span class="menu-bar-item">
+                        CHOCOLATE SHOP
+                    </span>
+                    <span class="menu-bar-item">
+                        AMERICAN FOOD
+                    </span>
+                    <span class="menu-bar-item">
+                        BALLOON BAR
+                    </span>
+                    <span class="menu-bar-item">
+                        GIFT HAMPER
+                    </span>
+                    <span class="menu-bar-item">
+                        CAKE SUPPLIES
+                    </span>
+                    <span class="menu-bar-item">
+                        EVENT STYLING
+                    </span>
+                    <span class="menu-bar-item">
+                        FOOD SERVICE
+                    </span>
+                </div>
+            </div>
+        </div>
+        <!-- END OF MENU BAR -->
+
+
+        <!-- MAIN SEARCH BAR -->
+        <div class="row main_search_bar d-flex justify-content-center align-items-center">
+            <div class="pb-4 col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
+                <div class="Sweeten-your-day-wit">
+                    Sweeten your day with every bite
+                </div>
+            </div>
+            <div class="row" style="text-align: center; padding-bottom: 110px;">
+                <form>
+                    <input type="input" id="search-input" class="search_bar Enter-an-item-name" autocomplete="off"
+                        placeholder="Enter an item name" />
+                    <button type="submit" class="search_btn">Search</button>
+                    <div class="search-box-container row d-flex justify-content-center align-items-center">
+                        <div id="search-results" style="z-index: 1;"></div>
+                    </div>
+                    <div id="search-data"></div>
+                </form>
+            </div>
+        </div>
+        <!-- END OF MAIN SEARCH BAR -->
+
+
+        <!-- THREE MENU -->
+        <div class="row three-menu-container">
+            <div class="three-menu-padding">
+                <img src="gift-box.png" class="Gift-box" />
+                <span class="Create-your-custom-m">
+                    Create your custom mix
+                </span>
+                <span class="Personalize-your-gif">
+                    Personalize your gift box
+                </span>
+            </div>
+            <div class="three-menu-padding">
+                <img src="season.png" class="Gift-box" />
+                <span class="Create-your-custom-m">
+                    Seasonal favorites
+                </span>
+                <span class="Personalize-your-gif">
+                    Perfect for any occassion - big or small
+                </span>
+            </div>
+            <div class="three-menu-padding">
+                <img src="xmas.png" class="Gift-box" />
+                <span class="Create-your-custom-m">
+                    Christmas collections
+                </span>
+                <span class="Personalize-your-gif">
+                    Gift them as unique as they are
+                </span>
+            </div>
+        </div>
+        <!-- END OF THREE MENU -->
+
+
+        <!-- TOP BRANDS -->
+        <div class="row brand_box_margin">
+            <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12" style="margin-top:99px;">
+                <span class="Explore-top-brands">
+                    Explore top brands
+                </span>
+                <br />
+                <span class="View-50-brands">
+                    View +50 brands
+                </span>
+            </div>
+        </div>
+
+        <div class="row brand_box_margin">
+            <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
+                <div class="row d-flex justify-content-start">
+                    <div class="top_brand_box">
+                        <img class="top_brand_image" src="hersheys.png" />
+                    </div>
+                    <div class="top_brand_box">
+                        <img class="top_brand_image" src="domori.png" />
+                    </div>
+                    <div class="top_brand_box">
+                        <img class="top_brand_image" src="cadbury-4.png" />
+                    </div>
+                    <div class="top_brand_box">
+                        <img class="top_brand_image" src="valrhona-1.png" />
+                    </div>
+                    <div class="top_brand_box">
+                        <img class="top_brand_image" src="logo-nutella.png" />
+                    </div>
+                    <div class="top_brand_box">
+                        <img class="top_brand_image" src="reese-s-logo.png" />
+                    </div>
+                    <div class="top_brand_box">
+                        <img class="top_brand_image" src="kinder-logo.png" />
+                    </div>
+                    <div class="top_brand_box">
+                        <img class="top_brand_image" src="nestle-chocolate-1.png" />
+                    </div>
+                    <div class="top_brand_box">
+                        <img class="top_brand_image" src="trolli.png" />
+                    </div>
+                    <div class="top_brand_box">
+                        <img class="top_brand_image" src="snickers-3.png" />
+                    </div>
+                    <div class="top_brand_box">
+                        <img class="top_brand_image" src="oreo.png" />
+                    </div>
+                    <div class="top_brand_box">
+                        <img class="top_brand_image" src="baci.png" />
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- END OF TOP BRANDS -->
+
+
+
+        <!-- MULTI MENU -->
+        <div class="row" style="padding-left: 163px; margin-top: 99px;">
+            
+            <div class="row MultiMenuCard">
+                <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
+                    <div class="col-8 col-sm-8 col-md-8 col-lg-8 col-xl-8">
+                        <div class="MultiMenuName">
+                            Candy shop
+                        </div>
+                        <div class="Shop-now">
+                            Shop now
+                            <img src="img/chevron-right.png" class="chevron-right">
+                        </div>
+                    </div>
+                    <div class="col-4 col-sm-4 col-md-4 col-lg-4 col-xl-4">
+                        <img src="candy-shop.png" class="MultiMenuImage">
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <!-- END OF MULTI MENU -->
+
+
+
+        <!-- BLOG POST -->
+        <div class="row blog-container">
+            <span class="Get-in-the-know col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
+                Get in the know
+            </span>
+            <span class="Read-our-blog pt-2 col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
+                Read our blog
+            </span>
+
+            <div class="row" style="margin:50px 0px 0px 16px;">
+                <div>
+                    <img src="rectangle.jpg" class="BlogCard" />
+                    <div class="BlogDate">
+                        Nov 10, 2021
+                    </div>
+                    <div class="BlogTitle">
+                        The gift guide for your friends and loved ones
+                    </div>
+                    <div class="Line-4"></div>
+                    <div class="BlogTag mt-2">
+                        Balloon Bar
+                    </div>
+                </div>
+                <div>
+                    <img src="rectangle.jpg" class="BlogCard" />
+                    <div class="BlogDate">
+                        Nov 10, 2021
+                    </div>
+                    <div class="BlogTitle">
+                        Local chocolate store makes it through pandemic
+                    </div>
+                    <div class="Line-4"></div>
+                    <span class="BlogTag">
+                        Balloon Bar
+                    </span>
+                </div>
+                <div>
+                    <img src="rectangle.jpg" class="BlogCard" />
+                    <div class="BlogDate">
+                        Nov 10, 2021
+                    </div>
+                    <div class="BlogTitle">
+                        The chemistry of candy making with delicious recipes
+                    </div>
+                    <div class="Line-4"></div>
+                    <span class="BlogTag">
+                        Balloon Bar
+                    </span>
+                </div>
+            </div>
+        </div>
+        <!-- END OF BLOG POST -->
+
+
+
+
+
+        <!-- FOOTER -->
+        <div class="row background_footer">
+            <div class="col-12 col-sm-12 col-md-12 col-lg-5 col-xl-5">
+                <span class="Were-on-social">
+                    WE'RE ON SOCIAL
+                </span>
+                <div class="row" style="padding:0px 0px 0px 18px">
+                    <img src="face-book-2.png" class="FaceBook-2" />
+                    <img src="twitter-2.png" class="Twitter-2" />
+                    <img src="instagram-2.svg" class="Instagram-2" />
+                </div>
+                <div style="padding-top:20px;">
+                    <span class="Sign-up-to-our-VIP-l">
+                        Sign up to our VIP list
+                    </span>
+                    <br />
+                    <span class="Be-the-first-to-get">
+                        Be the first to get all our latest special, products, and trends.
+                    </span>
+                    <form>
+                        <input type="email" class="newsletter" aria-describedby="emailHelp"
+                            placeholder="Enter your email address" />
+                        <button type="submit" class="subscribe_button">Subscribe</button>
+                    </form>
+                    <div style="margin: 117px 0px 0px 0px; color: #fff;">
+                        <span class="Terms-of-Use">
+                            Terms of Use
+                        </span>
+                        <span class="Privacy-Notice">
+                            Privacy Notice
+                        </span>
+                    </div>
+                    <div style="margin: 20px 0px 30px 0px;">
+                        <span class="-Copyright-2021-Can">
+                            © Copyright 2021 Candy Bar Sydney, All Rights Reserved.
+                        </span>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-sm-12 col-md-12 col-lg-7 col-xl-7">
+                <div class="row mb-5">
+                    <div class="col-4 col-sm-3 col-md-3 col-lg-3 col-xl-3">
+                        <div style="padding-bottom:30px">
+                            <span class="Company">
+                                COMPANY
+                            </span>
+                        </div>
+                        <div class="company_list">
+                            <div class="mb-3">
+                                <span>About us</span>
+                            </div>
+                            <div class="mb-3">
+                                <span>Help</span>
+                            </div>
+                            <div class="mb-3">
+                                <span>Shipping</span>
+                            </div>
+                            <div class="mb-3">
+                                <span>Returns</span>
+                            </div>
+                            <div class="mb-3">
+                                <span>Careers</span>
+                            </div>
+                            <div class="mb-3">
+                                <span>Forum</span>
+                            </div>
+                            <div class="mb-3">
+                                <span>Blog</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-4 col-sm-3 col-md-3 col-lg-3 col-xl-3">
+                        <div style="padding-bottom:30px">
+                            <span class="Shop">
+                                SHOP
+                            </span>
+                        </div>
+                        <div class="company_list">
+                            <div class="mb-3">
+                                <span>Chocolate shop</span>
+                            </div>
+                            <div class="mb-3">
+                                <span>Candy shop</span>
+                            </div>
+                            <div class="mb-3">
+                                <span>Balloon bar</span>
+                            </div>
+                            <div class="mb-3">
+                                <span>Gift hampers</span>
+                            </div>
+                            <div class="mb-3">
+                                <span>Cake supplies</span>
+                            </div>
+                            <div class="mb-3">
+                                <span>Eventt styling</span>
+                            </div>
+                            <div class="mb-3">
+                                <span>Food service</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-4 col-sm-3 col-md-3 col-lg-3 col-xl-3">
+                        <div style="padding-bottom:30px">
+                            <span class="Contact-us">
+                                CONTACT US
+                            </span>
+                        </div>
+                        <div class="company_list">
+                            <div class="mb-3">
+                                <span>02 9584 0350</span>
+                            </div>
+                            <div class="mb-3">
+                                <span class="contact_email">hello@candybarssydney.com.au</span>
+                            </div>
+                            <div class="mb-3">
+                                <span>Contact us</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-9 col-sm-9 col-md-9 col-lg-9 col-xl-9 ml-2 pt-3">
+                        <div class="row sqf_foot">
+                            <div class="mr-4 col-2 col-sm-2 col-md-2 col-lg-2 col-xl-2 pt-1">
+                                <img src="sqf.png" class="SQF" />
+                            </div>
+                            <div class="col-12 col-sm-9 col-md-9 col-lg-9 col-xl-9">
+                                <span class="Our-factory-in-Peakh">
+                                    Our factory in Peakhurst, NSW has been accredited by SQF,
+                                    to ensure you have the highest standards of products
+                                    manufactured, retailed or distributed to you.
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- END OF FOOTER -->
+
+    </div>
+</body>
+
+</html>
