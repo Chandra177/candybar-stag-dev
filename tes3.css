@@ -284,6 +284,10 @@ img.Gift-box {
 
 
 /* MULTI MENU */
+.MultiMenuMargin {
+    margin: 0px 0px 0px 148px;
+}
+
 .MultiMenuCard {
     width: 360px;
     height: 190px;
