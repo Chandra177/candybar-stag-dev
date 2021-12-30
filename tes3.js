@@ -131,4 +131,5 @@ $(document).ready(function () {
             $(".all-results-block").hide();
         }
     });
+
 })

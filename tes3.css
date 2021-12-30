@@ -284,15 +284,54 @@ img.Gift-box {
 
 
 /* MULTI MENU */
+.CandyShop {
+    background-color: #ffcde1;
+}
+
+.ChocolateShop {
+    background-color: #fdf1d8;
+}
+
+.BalloonBar {
+    background-color: #fbd0c6;
+}
+
+.GiftHampers {
+    background-color: #a2e0cb;
+}
+
+.CakeSupplies {
+    background-color: #fee1d2;
+}
+
+.EventStyling {
+    background-color: #aee3e2;
+}
+
+.FoodService {
+    background-color: #f1f1f1;
+}
+
+.AmericanFood {
+    background-color: #def4d4;
+}
+
+.PersonalizedGift {
+    background-color: #d2e7f6;
+}
+
 .MultiMenuMargin {
-    margin: 0px 0px 0px 148px;
+    margin: 99px 0px 0px 148px;
+}
+
+.MultiMenuContainer {
+    margin: 0px 52px 0px 0px;
 }
 
 .MultiMenuCard {
     width: 360px;
     height: 190px;
     padding: 0 0 0 36px;
-    background-color: #ffcde1;
     margin: 20px 42px 0px 0px;
 }
 
@@ -300,7 +339,8 @@ img.MultiMenuImage {
     width: 190px;
     height: 190px;
     object-fit: contain;
-    margin-left: 3.5px;
+    margin-left: 59px;
+    float: right;
 }
 
 .MultiMenuName {
@@ -309,11 +349,13 @@ img.MultiMenuImage {
     font-size: 24px;
     font-weight: 600;
     color: #774056;
+    position: absolute;
 }
 
 .Shop-now {
     height: 18px;
     margin: 35px 0px 0px 0px;
+    padding: 35px 0px 0px 2px;
     font-size: 14px;
     color: #000;
 }
@@ -325,6 +367,8 @@ img.chevron-right {
     object-fit: contain;
 }
 /* END OF MULTI MENU */
+
+
 
 
 /* BLOG POST */
@@ -605,8 +649,14 @@ img.SQF {
         clear: both;
         display: none;
     }
-    .three-menu-container{
-        padding: 20px;
+    .three-menu-container {
+        padding-left: 15px;
+    }
+    .MultiMenuMargin {
+        margin: 0px 0px 0px 25px;
+    }
+    .blog-container {
+        padding-left: 15px;
     }
 }
 
@@ -631,14 +681,34 @@ img.SQF {
     .search-box-container {
         padding: 0px 0px 0px 118px;
     }
+    .three-menu-container {
+        padding-left: 15px;
+    }
     .three-menu-container{
         padding: 20px;
+    }
+    .MultiMenuMargin {
+        margin: 0px 0px 0px 25px;
+    }
+    .blog-container {
+        padding-left: 15px;
     }
 }
 
 /* Medium devices (tablets, 768px and up) */
-@media (min-width: 768px) {
-
+@media (min-width: 768px) and (max-width: 991px) {
+    .three-menu-container {
+        padding-left: 15px;
+    }
+    .brand_box_margin {
+        padding: 0px 0px 0px 15px;
+    }
+    .MultiMenuMargin {
+        margin: 0px 0px 0px 25px;
+    }
+    .blog-container {
+        padding-left: 15px;
+    }
 }
 
 /* Large devices (desktops, 992px and up) */
